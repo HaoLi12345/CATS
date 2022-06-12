@@ -1,4 +1,5 @@
 # CATS:COMPLEMENTARY CNN AND TRANSFORMER ENCODERS FOR SEGMENTATION
+
 ```
 @inproceedings{li2022cats,
   title={Cats: Complementary CNN and Transformer Encoders for Segmentation},
