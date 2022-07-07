@@ -52,8 +52,7 @@ from monai.data import (
 
 import torch
 
-from src.model import BasicUNet_midtrans, BasicUNet_transencoder, BasicUNet_swinencoder, unet3d, BasicUNet_fronttrans
-from monai.networks.nets import DynUnet, UNETR, BasicUNet, VNet, RegUNet
+from src.model import cats
 
 from monai.data import CacheDataset, DataLoader, Dataset
 from glob import glob
@@ -102,8 +101,7 @@ data_loader = DataLoader(dataset, batch_size=1, shuffle=False, num_workers=0)
 #     res_block=True,
 #     dropout_rate=0.0,
 # ).cuda()
-# model = BasicUNet(dimensions=3, in_channels=1, out_channels=14, features=(32, 32, 64, 128, 256, 32)).cuda()
-model = BasicUNet_transencoder.BasicUNet_transencoder(dimensions=3, in_channels=1, out_channels=14,
+model = cats.cats(dimensions=3, in_channels=1, out_channels=14,
                                                                 features=(32, 32, 64, 128, 256, 32), image_size=(96, 96, 96)).cuda()
 
 model.load_state_dict(torch.load(os.path.join(root_dir, "best_metric_model.pth")))
