@@ -10,3 +10,33 @@
   organization={IEEE}
 }
 ```
+
+
+train.py ------> train BTCV dataset with .jason file. (based on https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/unetr_btcv_segmentation_3d.ipynb)
+
+
+train_with_data_dir.py -----> changed data I/O, you can use a path that contains nifti files, in the following format
+
+────────dataset_folder
+	  |
+	  |
+	  ├─train_set_image_folder <br />
+	  |  	├── 1.nii.gz <br />
+	  |  	└── 2.nii.gz <br />
+	  | 	... <br />
+	  |  	... <br />
+	  |  	... <br />
+	  |  	... <br />
+	  |  	└── 100.nii.gz (bunch of nifti files in a folder) <br />
+	  |
+	  |
+	  |
+	  └─train_set_label_folder <br />
+	  	├── 1_label.nii.gz <br />
+	  	└── 2_label.nii.gz <br />
+	        ... <br />
+	        ... <br />
+	        ... <br />
+	        ... <br />
+	        └── 100_label.nii.gz (bunch of nifti files in a folder) <br />
+		
