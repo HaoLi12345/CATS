@@ -12,14 +12,14 @@
 ```
 
 
-train.py ------> train BTCV dataset with .jason file. (based on https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/unetr_btcv_segmentation_3d.ipynb)
+train.py ------> train BTCV dataset with .jason file. (based on https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/unetr_btcv_segmentation_3d.ipynb)<br />
 
 
-train_with_data_dir.py -----> changed data I/O, you can use a path that contains nifti files, in the following format
+train_with_data_dir.py -----> changed data I/O, you can use a path that contains nifti files, in the following format<br />
 
-────────dataset_folder
-	  |
-	  |
+────────dataset_folder<br />
+	  |<br />
+	  |<br />
 	  ├─train_set_image_folder <br />
 	  |  	├── 1.nii.gz <br />
 	  |  	└── 2.nii.gz <br />
@@ -28,9 +28,9 @@ train_with_data_dir.py -----> changed data I/O, you can use a path that contains
 	  |  	... <br />
 	  |  	... <br />
 	  |  	└── 100.nii.gz (bunch of nifti files in a folder) <br />
-	  |
-	  |
-	  |
+	  |<br />
+	  |<br />
+	  |<br />
 	  └─train_set_label_folder <br />
 	  	├── 1_label.nii.gz <br />
 	  	└── 2_label.nii.gz <br />
