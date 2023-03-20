@@ -18,14 +18,14 @@ train.py ------> train BTCV dataset with .jason file. (based on https://github.c
 train_with_data_dir.py -----> changed data I/O, you can use a path that contains nifti files, in the following format<br />
 
 dataset_folder<br />
-├─train_set_image_folder <br />
+└─train_set_image_folder <br />
 &emsp;├── 1.nii.gz <br />
 &emsp;└── 2.nii.gz <br />
 &emsp;... <br />
 &emsp;... <br />
 &emsp;... <br />
 &emsp;└── 100.nii.gz <br />
-├─train_set_label_folder <br />
+└─train_set_label_folder <br />
 &emsp;├── 1_label.nii.gz <br />
 &emsp;└── 2_label.nii.gz <br />
 &emsp;... <br />
