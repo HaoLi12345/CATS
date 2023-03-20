@@ -19,22 +19,17 @@ train_with_data_dir.py -----> changed data I/O, you can use a path that contains
 
 dataset_folder<br />
 ├─train_set_image_folder <br />
-<br />|  	├── 1.nii.gz <br />
-<br />|  	└── 2.nii.gz <br />
-<br />| 	... <br />
-<br />|  	... <br />
-<br />|  	... <br />
-<br />|  	... <br />
-<br />|  	└── 100.nii.gz (bunch of nifti files in a folder) <br />
-<br />|<br />
-<br />|<br />
-<br />|<br />
+&emsp;├── 1.nii.gz <br />
+&emsp;└── 2.nii.gz <br />
+&emsp;... <br />
+&emsp;... <br />
+&emsp;... <br />
+&emsp;└── 100.nii.gz <br />
 ├─train_set_label_folder <br />
-<br />|         ├── 1_label.nii.gz <br />
-<br />|         └── 2_label.nii.gz <br />
-<br />|         ... <br />
-<br />|         ... <br />
-<br />|         ... <br />
-<br />|         ... <br />
-<br />|         └── 100_label.nii.gz (bunch of nifti files in a folder) <br />
+&emsp;├── 1_label.nii.gz <br />
+&emsp;└── 2_label.nii.gz <br />
+&emsp;... <br />
+&emsp;... <br />
+&emsp;... <br />
+&emsp;└── 100_label.nii.gz <br />
 		
