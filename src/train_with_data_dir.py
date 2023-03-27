@@ -150,7 +150,7 @@ train_loader = get_train_loader(image_dir, label_dir, x=x, y=y, z=z)
 
 vali_image_dir = 
 vali_label_dir = 
-validation_loader = get_train_loader(vali_image_dir, vali_label_dir)
+validation_loader = get_validation_loader(vali_image_dir, vali_label_dir)
 
 
 model = cats.cats(dimensions=3, in_channels=1, out_channels=9,
