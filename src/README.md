@@ -1,4 +1,8 @@
-Added train_v2.py for cats_v2. train_v2.py is almost same as train.py but different model selection. You could you original train files :)
+Added train_v2.py for cats_v2. 
+
+train_v2.py is almost same as train.py but different model selection. 
+
+You could use original train files :)
 
 08/17/23
 
