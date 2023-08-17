@@ -12,6 +12,20 @@
 ```
 
 
+# CATS v2: Hybrid encoders for robust medical segmentation
+
+```
+@article{li2023cats,
+  title={CATS v2: Hybrid encoders for robust medical segmentation},
+  author={Li, Hao and Liu, Han and Hu, Dewei and Yao, Xing and Wang, Jiacheng and Oguz, Ipek},
+  journal={arXiv preprint arXiv:2308.06377},
+  year={2023}
+}
+```
+
+
+
+
 train.py ------> train BTCV dataset with .jason file. (based on https://github.com/Project-MONAI/tutorials/blob/main/3d_segmentation/unetr_btcv_segmentation_3d.ipynb)<br />
 
 
