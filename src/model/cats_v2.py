@@ -17,7 +17,7 @@ import torch.nn as nn
 from monai.networks.blocks import Convolution, UpSample, TransformerBlock, PatchEmbeddingBlock, UnetrBasicBlock, ADN, ResidualUnit, Convolution
 from monai.networks.layers.factories import Conv, Pool
 from monai.utils import ensure_tuple_rep
-from .cats_swin import SwinTransformer, PatchMerging, PatchMergingV2
+from monai.networks.nets.swin_unetr import SwinTransformer, PatchMerging, PatchMergingV2
 from typing import Optional, Sequence, Tuple, Type, Union
 import numpy as np
 from monai.utils import ensure_tuple_rep, look_up_option, optional_import
