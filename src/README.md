@@ -1,6 +1,6 @@
-Added train_v2.py for cats_v2. 
+Added train_v2_moda.py for crossmoda dataset described in cats_v2. 
 
-train_v2.py is almost same as train.py but different model selection. 
+train_v2_moda.py is almost same as train.py but different model selection. 
 
 You could use original train files :)
 
