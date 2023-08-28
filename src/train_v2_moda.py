@@ -117,7 +117,7 @@ validation_loader = get_validation_loader(validation_image_dir, validation_label
 
 
 model = cats_v2.cats_v2(img_size=(x, y, z), in_channels=1, out_channels=3, feature_size=48,
-                        features=(48, 48, 96, 192, 384, 768, 48),
+                        features=(48, 48, 96, 192, 384, 768, 48), 
                         ).cuda()
 
 torch.backends.cudnn.benchmark = True
